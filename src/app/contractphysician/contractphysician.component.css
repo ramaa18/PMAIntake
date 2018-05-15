@@ -1,0 +1,23 @@
+ 
+    .panel-title a:after {
+        font-family:Fontawesome;
+        content:'\f139';
+        /* content:'\f077'; */
+        float:right;
+        /* font-size:10px;
+        font-weight:300; */
+        font-size:24px;
+        font-weight:300;
+        
+    }
+    .panel-title a.collapsed:after {
+        font-family:Fontawesome;
+        content:'\f13a';
+        /* content:'\f078'; */
+    }
+
+    .vertical{
+        border-left:3px solid black;
+        height:300px;
+
+    }

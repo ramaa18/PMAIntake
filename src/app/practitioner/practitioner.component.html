@@ -1,0 +1,83 @@
+<div class="container container-fluid" style="margin-top:0px; background-color: #FFFFFF; align-self: auto;">
+              <h1 style="font: Lantinghei SC, Extralight; font-size: 40px;
+               color: #3B95D8;text-align: auto"> Select Practitioner
+              </h1>
+  <div class="row" style="margin-top:0px;padding-top: 0px">
+          <!-- <br/> -->
+    <div class="col-xs-4 col-md-4" style="background-color:#FFFFFF; padding-top:10px;"> 
+      <div class="panel panel-default panel-horizontal"> 
+          <div *ngIf="link" class="panel-body" style="background-color:#BEDCF2;">
+             <a  [routerLink]="['/contractphysician']"> 
+                
+            <h1 style="font: ArialMT, Regular; font-size: 20px; color: #444444; text-align: center;">Physician</h1> 
+            </a>
+            </div>
+            <div *ngIf="!link" class="panel-body" style="background-color:#BEDCF2;">
+                 <a *ngIf="!link" [routerLink]="['/noncontractphysician']"> 
+                   <!-- {{ptype === 'c' ? '<a [routerLink]="['/contractphysician']">' : '<a [routerLink]="['/contractphysician']">'}} -->
+   
+               <!-- <a [routerLink]="['/noncontractphysician']"> -->
+               <h1 style="font: ArialMT, Regular; font-size: 20px; color: #444444; text-align: center;">Physician</h1> 
+               </a>
+               </div>
+        </div>
+        </div>
+    </div>
+  <!-- </div> -->
+
+  <div class="row" style="margin-top:0px">
+    <div class="col-xs-4 col-md-4" style="background-color:#FFFFFF; padding-top:10px;"> 
+        <div class="panel panel-default panel-horizontal"> 
+                <div class="panel-body" style="background-color:#BEDCF2;"> 
+                <h1 style="font: ArialMT, Regular; font-size: 20px; color: #444444; text-align: center;">Mid Level</h1></div>
+
+            <!-- <div class="panel-body" style="background-color:#BEDCF2;"> -->
+                <!-- <div *ngIf="link" class="panel-body" style="background-color:#BEDCF2;">
+                    <a  [routerLink]="['/contractmidlevel']"> 
+                        <h1 style="font: ArialMT, Regular; font-size: 20px; color: #444444; text-align: center;">Mid Level</h1>
+                   </a>
+                   </div>
+                   <div *ngIf="!link" class="panel-body" style="background-color:#BEDCF2;">
+                        <a *ngIf="!link" [routerLink]="['/noncontractmidlevel']"> 
+                          
+<h1 style="font: ArialMT, Regular; font-size: 20px; color: #444444; text-align: center;">Mid Level</h1> 
+                      </a>
+                      </div> -->
+              <!-- <h1 style="font: ArialMT, Regular; font-size: 20px; color: #444444;text-align: center;">Mid-Level
+              </h1>  -->
+              <!-- {{ptype === 'c' ? '<a [routerLink]="['/contractphysician']">' : '<a [routerLink]="['/contractphysician']">'}} -->
+          
+                      <!-- <a [routerLink]="['/noncontractphysician']"> -->
+              
+        </div>
+    </div>
+    </div>
+
+  <div class="row" style="margin-top:0px">
+      <div class="col-xs-4 col-md-4" style="background-color:#FFFFFF; padding-top:10px;"> 
+          <div class="panel panel-default panel-horizontal">
+                <div class="panel-body" style="background-color:#BEDCF2;"> 
+                <h1 style="font: ArialMT, Regular; font-size: 20px; color: #444444; text-align: center;">Non Physician</h1></div>
+
+              <!-- <div class="panel-body" style="background-color:#BEDCF2;"> -->
+                <!-- <div *ngIf="link" class="panel-body" style="background-color:#BEDCF2;">
+                    <a  [routerLink]="['/contractnonphysician']"> 
+                       
+                   <h1 style="font: ArialMT, Regular; font-size: 20px; color: #444444; text-align: center;">Non Physician</h1> 
+                   </a>
+                   </div>
+                   <div *ngIf="!link" class="panel-body" style="background-color:#BEDCF2;">
+                        <a *ngIf="!link" [routerLink]="['/noncontractnonphysician']"> 
+                          
+                      <h1 style="font: ArialMT, Regular; font-size: 20px; color: #444444; text-align: center;">Non Physician</h1> 
+                      </a>
+                      </div> -->
+                <!-- <h4 style="font: ArialMT, Regular; font-size: 20px;color:#444444; text-align: center;">Non-Physician</h4>  -->
+                <!-- {{ptype === 'c' ? '<a [routerLink]="['/contractphysician']">' : '<a [routerLink]="['/contractphysician']">'}} -->
+          
+                      <!-- <a [routerLink]="['/noncontractphysician']"> -->
+                </div>
+            </div>
+        <!-- </div> -->
+   </div>
+</div>

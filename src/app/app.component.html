@@ -1,0 +1,56 @@
+<div class="container container-fluid" style="margin-top:0px; background-color: #FFFFFF; align-self: auto;">
+      <h4 style="font:Lantinghei SC, Extralight; font-size: 40px; color: #3B95D8;text-align: left;"> Add Provider</h4>
+              <div class="row" style="margin-top:0px">
+            <!-- <br/> -->
+        <div class="col-xs-3 col-md-3" style="background-color:#FFFFFF; padding-top:15px;"> 
+          <div class="panel panel-default panel-horizontal"> 
+            <div class="panel-body" style="background-color:#BEDCF2;">
+              <a [routerLink]="['/practitioner','c']">
+              <h2 style="font: ArialMT, Regular; opacity:50%;font-size: 18px;color: #444444;text-align: center;">Contract Practitioner</h2> 
+            </a>
+            </div>
+        </div>
+      </div>
+        <div class="col-xs-3 col-md-3" style="background-color:#FFFFFF;padding-top:15px;">
+          <div class="panel panel-default panel-horizontal">
+        
+            <div class="panel-body" style="background-color:#BEDCF2;">
+                <a [routerLink]="['/practitioner','nc']">
+              <h2 style="font: ArialMT, Regular; font-size: 18px; color:#444444 ;text-align: center;">Non-Contract Practitioner
+              </h2>
+              </a>
+            </div>
+        </div></div>
+      </div>
+
+      <div class="row">
+          <div class="col-xs-3 col-md-3" style="background-color:#FFFFFF;">
+            <div class="panel panel-default disabled panel-horizontal">
+        
+              <div class="panel-body" style="background-color:#BEDCF2;">
+                  <h2 style="font: ArialMT, Regular; font-size: 18px ;text-align: center;">Contract Facility</h2>
+              </div>
+          </div></div>
+          <div class="col-xs-3 col-md-3" style="background-color:#FFFFFF;">
+            <div class="panel panel-default disabled panel-horizontal">
+        
+              <div class="panel-body" style="background-color:#BEDCF2;">
+                  <h2 style="font: ArialMT, Regular; font-size: 18px;text-align: center;">Non-Contract Facility
+                </h2>
+              </div>
+          </div></div>
+        </div>
+   </div>
+  
+<!-- <script type="text/javascript">$('#lnkPanel').click(function(e) {
+    e.preventDefault();
+    window.location = '/teamservapp/';
+}); </script> -->
+    <router-outlet></router-outlet> 
+
+    <!-- <input id="datepicker" width="270" />
+    <script>
+        $('#datepicker').datepicker({
+            uiLibrary: 'bootstrap'
+        });
+    </script> -->
